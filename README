@@ -1,0 +1,9 @@
+This project includes two implementations of the SLIC superpixel algorithm from the paper "SLIC superpixels" by Achanta et al. the first is my 
+implementation, and the second is the skimage package implementation for comparison.
+
+To run my implementation, replace the file name on line 143 with the name of the image you want to process. 
+Then use "python SLIC.py" to run the code.
+
+To run the skimage implementation, use the command "python skimage_implementation.py -i campus-spring.jpg" 
+and replace campus-spring.jpg with your desired image, if you want to calculate more or less segments, modify
+the n_segments variable on line 20.
